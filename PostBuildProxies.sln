@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBuildProxies.Core.UnitTest", "PostBuildProxies.Core.UnitTest\PostBuildProxies.Core.UnitTest.csproj", "{E86FA60C-0F92-49C8-AB5C-9F436D19118D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PostBuildProxies.Core", "PostBuildProxies.Core\PostBuildProxies.Core.shproj", "{E9B7BE16-344D-42E3-BC86-79C5C3A15175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBuildProxies.Core.Net", "PostBuildProxies.Core.Net\PostBuildProxies.Core.Net.csproj", "{3C02C58E-2DCB-40DB-8615-D5DE5C6B1702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostBuildProxies.Core.IntegrationTest", "PostBuildProxies.Core.IntegrationTest\PostBuildProxies.Core.IntegrationTest.csproj", "{E73BDE04-8762-4BE6-B2CC-3BC20E4D6623}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PostBuildProxies.Core\PostBuildProxies.Core.projitems*{e9b7be16-344d-42e3-bc86-79c5c3a15175}*SharedItemsImports = 13
+		PostBuildProxies.Core\PostBuildProxies.Core.projitems*{3c02c58e-2dcb-40db-8615-d5de5c6b1702}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E86FA60C-0F92-49C8-AB5C-9F436D19118D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86FA60C-0F92-49C8-AB5C-9F436D19118D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86FA60C-0F92-49C8-AB5C-9F436D19118D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86FA60C-0F92-49C8-AB5C-9F436D19118D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C02C58E-2DCB-40DB-8615-D5DE5C6B1702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C02C58E-2DCB-40DB-8615-D5DE5C6B1702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C02C58E-2DCB-40DB-8615-D5DE5C6B1702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C02C58E-2DCB-40DB-8615-D5DE5C6B1702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73BDE04-8762-4BE6-B2CC-3BC20E4D6623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73BDE04-8762-4BE6-B2CC-3BC20E4D6623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73BDE04-8762-4BE6-B2CC-3BC20E4D6623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73BDE04-8762-4BE6-B2CC-3BC20E4D6623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
